@@ -2,14 +2,14 @@ import * as firebase from 'firebase';
 import '@firebase/auth';
 import '@firebase/firestore';
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyAOWHBpPhKoNhcGFKHH_Q_0AtL2gV-imgQ',
-  authDomain: 'production-a9404.firebaseapp.com',
-  databaseURL: 'https://production-a9404.firebaseio.com',
-  projectId: 'production-a9404',
-  storageBucket: 'production-a9404.appspot.com',
-  messagingSenderId: '525472070731',
-  appId: '1:525472070731:web:ee873bd62c0deb7eba61ce',
+var firebaseConfig = {
+  apiKey: "AIzaSyDl3V9W0rYtvy7naHfpGsMDZmt1yKDg8bU",
+  authDomain: "rnfirebase-1c8eb.firebaseapp.com",
+  databaseURL: "https://rnfirebase-1c8eb.firebaseio.com",
+  projectId: "rnfirebase-1c8eb",
+  storageBucket: "rnfirebase-1c8eb.appspot.com",
+  messagingSenderId: "156176418219",
+  appId: "1:156176418219:web:a6ace49046c7b77df77eee"
 };
 
 if (!firebase.apps.length) {
